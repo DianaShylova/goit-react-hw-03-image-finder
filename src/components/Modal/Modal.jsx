@@ -3,7 +3,7 @@ import { OverLay } from "components/Overlay/Overlay";
 import { Component } from "react";
 import { createPortal } from "react-dom";
 
-const modal_root = document.getElementById('modal_root');
+const modal_root = document.getElementById('root');
 
 export class Modal extends Component {
   static propTypes = {
